@@ -24,8 +24,8 @@ print("Using NGROK_BASE_URL:", NGROK_BASE_URL)
 @router.post("/make_call")
 def make_call():
     # Load Twilio credentials from env
-    account_sid = "ACadb02d62c972112ccaa441965c90bba4"
-    auth_token = "86328b151daddc915eb39ea15e2dd815"
+    account_sid = 
+    auth_token = 
     from_number = "+17867861066"  # Your Twilio number
     to_number = "+916351478230"      # Your real phone number
 
